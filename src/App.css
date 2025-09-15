@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import "tailwindcss";
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 0.375rem;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .mobile-menu{
+      display: none;
+    }
+    .mobile-menu.active {
+      display: block;
+    }
+  h2{
+    font-family: Oswald !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px !important;
+  }
+  h3,button span{
+    font-family: Oswald !important;
+    font-weight: 400 !important;
+    letter-spacing: 1px !important;
+  }
+  button span{
+    font-weight: 700 !important;
+  }
+  p,a,button{
+    font-family: Arial !important;
+    font-weight: 400 !important;
+    letter-spacing: 1px !important;
+  }
+  a,button{
+    font-weight: 700 !important;
+    text-decoration: none !important;
+  }
